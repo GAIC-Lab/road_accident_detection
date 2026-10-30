@@ -35,7 +35,7 @@ The source clip of each image is listed in `split_mapping.csv`.
 
 The temporal evaluation uses 64 videos from the public **Road Traffic Accidents** dataset (Sabry, 2021). We do not redistribute these videos. To reproduce the evaluation:
 
-1. Download the dataset from its original source: `[ADD LINK]`.
+1. Download the videos from their original YouTube sources: [WoWtchout](https://www.youtube.com/@WoWtchout) and [Choques de Autos Mx](https://www.youtube.com/@ChoquesdeAutosMx).
 2. Copy the videos listed in `test_videos.csv` into `dataset/video/`.
 3. Verify the files against the MD5 checksums in `test_videos.csv`.
 
@@ -43,7 +43,6 @@ The temporal evaluation uses 64 videos from the public **Road Traffic Accidents*
 
 * **Annotations** (label files, `split_mapping.csv`): CC BY 4.0.
 * **Extracted frames:** remain the property of the owners of the original videos (the WoWtchout and Choques de Autos Mx channels linked above, and the YouTube clips listed in `split_mapping.csv`). They are provided for non-commercial research use only.
-* **Code:** `[ADD LICENSE, e.g. MIT]`.
 
 If you own footage included in this dataset and want it removed, please open an issue or contact the authors.
 
